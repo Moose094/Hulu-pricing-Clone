@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: white;
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+.price-card{
+    background-color: white;
+    padding: 20px 40px ;
+    border-radius: 5px;
+    
+}
+
+#pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+#main-P{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+#secondary-P {
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.card-header{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.card-header1 {
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#second-Card_btn{
+    /*
+    display block and 
+    margin 0 auto allowed to center the 
+    button. I can't just use text- align 
+    to center it. Learned something new haha
+    */
+    display: block;
+    margin: 0 auto;
+    border: 1px solid pink;
+    padding: 12px;
+    border-radius: 80px;
+    width: 200px;
+    background-color: green;
+    color: white;
+     
+
+}
+
+.card-price{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.initial-p{
+    margin-bottom: 10px;
+}
+.main-div{
+    margin-bottom: 30px;
+}
+
+.price-btn{
+    border: 1px solid pink;
+    padding: 12px;
+    border-radius: 3px;
+    width: 200px;
+    background-color: inherit;
+    
+}
+.price-btn1 {
+    border: 1px solid pink;
+    padding: 12px;
+    border-radius: 3px;
+    width: 200px;
+    background-color: black;
+    color: white;
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    #pricing {
+            color: white;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+    
+        }
+    
+}
